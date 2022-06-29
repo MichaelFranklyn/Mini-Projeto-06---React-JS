@@ -1,0 +1,23 @@
+.imagem-conteudo-login {
+    background-image: url('../../assets/fundoLogin.svg');
+    background-size: cover;
+    width: 50vw;
+}
+
+.form-login {
+    height: 453px;
+}
+
+.form h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 9px;
+}
+
+.form h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 32px;
+}

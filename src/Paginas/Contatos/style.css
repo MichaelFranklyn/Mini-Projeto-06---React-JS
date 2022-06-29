@@ -1,0 +1,93 @@
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background: #134563;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Rokkitt', serif;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header img {
+    height: 18px;
+    width: 18px;
+
+    position: absolute;
+    top: 26px;
+    right: 26px;
+
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+
+    padding: 100px 242px 0;
+}
+
+main button {
+    all: unset;
+    box-sizing: border-box;
+
+    background: #04C45C;
+    border-radius: 8px;
+
+    height: 50px;
+    width: 235px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+main button:hover {
+    opacity: 0.8;
+}
+
+.cabecalho-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 32px;
+    height: 46px;
+    width: 956px;
+    background: #F4F0F0;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.cabecalho-lista h1 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1C1414;
+    width: 223px;
+}
+
+.vazia {
+    width: 223px;
+}

@@ -1,0 +1,25 @@
+.conteudo-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 32px;
+    height: 46px;
+    width: 956px;
+    background: #FFFAFA;
+    margin-bottom: 8px;
+}
+
+.conteudo-lista span, .icones-lista  {
+    width: 223px;
+}
+
+.icones-lista {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+.icones-lista img {
+    cursor: pointer;
+}
